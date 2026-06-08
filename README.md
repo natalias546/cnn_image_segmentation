@@ -43,4 +43,4 @@ python predict.py <image_path> checkpoints/best_model.pth
 
 All hyperparameters (image size, batch size, epochs, lr) are in `config.py`.
 
-## Used some Generative AI for questions and debugging 
+Used some Generative AI for questions and debugging 
