@@ -25,6 +25,12 @@ python ingest.py
 python train.py
 ```
 
+## Run entire pipeline
+
+```bash
+python main.py
+```
+
 Best checkpoint saved to `checkpoints/best_model.pth`.
 
 ## Predict
@@ -36,3 +42,5 @@ python predict.py <image_path> checkpoints/best_model.pth
 ## Config
 
 All hyperparameters (image size, batch size, epochs, lr) are in `config.py`.
+
+## Used some Generative AI for questions and debugging 
